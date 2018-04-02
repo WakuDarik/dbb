@@ -1,0 +1,550 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* Body */
+body {
+	line-height: 1;
+	left: 0;
+	margin: 0;
+	overflow-x: hidden;
+	position: relative;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.modal{
+	display: none;
+}
+span.span_blue{
+	color: #1fa3ff;
+}
+header{
+	background: url(../images/first_screen_bg.png) 100% 100% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.menuImg{
+	width: 50px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.menu_container span{
+	font-size: 21px;
+	font-family: "GothaProReg";
+	vertical-align: middle;
+	cursor: pointer;
+}
+img.logo{
+	width: 100%;
+}
+img.galochka {
+	position: relative;
+	top: -21px;
+	border: 10px solid #1fa3ff; 
+	border-radius: 50%;
+	background: #1fa3ff;
+	height: 85px;
+}
+.wrok_text {
+	height: 370px;
+}
+.headerInfo {
+	text-align: center;
+}
+.menu_container {
+	line-height: 75px;
+	letter-spacing: .4px;
+	position: fixed;
+	z-index: 100;
+}
+.headerInfo p{
+	font-size: 21px;
+	font-family: "GothaProReg";
+	text-transform: uppercase;
+	letter-spacing: .4px;
+	line-height: 75px;
+}
+.headerInfo a{
+	text-decoration: underline;
+	font-size: 16px;
+	font-family: "GothaProBold";
+	text-transform: uppercase;
+	letter-spacing: .4px;
+	line-height: 0;
+}
+h1.title{
+	margin: 75px auto;
+	font-size: 51px;
+	font-family: "GothaProBold";
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 75px;
+	letter-spacing: .4px;
+}
+img.InfoGrafPng{
+	width: 135px;
+}
+p.InfoGrafText{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	line-height: 27px;
+	letter-spacing: .4px;
+}
+.HeaderInfoGraf{
+	text-align: center;
+	height: 200px;
+	margin-bottom: 20px;
+}
+.HeaderButton{
+	text-align: center;
+	height: 100px;
+}
+.btn{
+	font-family: "GothaProBold";
+	font-size: 22px;
+	padding: 20px 36px;
+	color: #1fa3ff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 3px solid #1fa3ff;
+	border-radius: 5px;
+	margin: 0 25px;
+	/* line-height: 75px; */
+	letter-spacing: .4px;
+	display: inline-block;
+}
+.btn.blur{
+	background: #1fa3ff;
+	color: #fff;
+}
+section.first{
+	margin: 100px auto;
+}
+section.first h2.title{
+	font-family: "GothaProBold";
+	font-size: 35px;
+	line-height: 75px;
+	letter-spacing: .4px;
+}
+.first_title{
+	text-align: center;
+}
+section.first p.first_title_text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-bottom: 50px;
+	line-height: 24px;
+	letter-spacing: .4px;
+}
+span.FirstInfiTitle{
+	font-family: "GothaProBold";
+	font-size: 23px;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 35px;
+	letter-spacing: .4px;
+}
+p.FirstText{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #606060;
+	line-height: 29px;
+	letter-spacing: .4px;
+}
+img.FirstOng{
+	width: 75px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+.contaienrCard{
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(31,162,255,1);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(31,162,255,1);
+	box-shadow: 0px 0px 6px 0px rgba(31,162,255,1);
+	margin: 45px auto;
+	padding: 30px 42px;
+	border-radius: 5px;
+}
+section.second{
+	background: url(../images/third_screen_bg.png) 100% 100% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: -webkit-fill-available;
+}
+section.second h2.title{
+	font-family: "GothaProBold";
+	font-size: 55px;
+	line-height: 65px;
+	letter-spacing: .4px;
+	margin: 55px auto;
+	text-align: center;
+	color: #fff;
+}
+.form_container{
+	background: #fff;
+	height: 293px;
+	border-radius: 10px;
+}
+.form_container label{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 65px;
+	letter-spacing: .4px;
+	display: block;
+}
+select#nisha{
+	/*for WebKit*/
+	-webkit-appearance: none;
+	/* for FF */
+	-moz-appearance: none;
+	text-indent: 0.01px; 
+	text-overflow: '';
+	/* for IE */
+	-ms-appearance: none;
+	appearance: none!important;
+	padding: 9px !important;
+}
+select::-ms-expand {
+	display: none;
+}
+i.fa.fa-caret-down{
+	position: absolute;
+	top: 75px;
+	right: 27px;
+	color: #2dc545;
+}
+select#nisha, .form_container input#input{
+	width: 100%;
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	border: 1px solid #cdcdcd;
+
+}
+.grenn_btn{
+	background: #2dc545;
+	color: #fff;
+	border: none;
+	border-bottom: 5px solid #2c5c2f;
+	border-bottom-left-radius: 11px;
+	border-bottom-right-radius: 11px;
+	/* line-height: 125px; */
+	margin-top: 30px;
+}
+.form_btn{
+	text-align: center;
+	margin-top: 15px;
+}
+section.second form{
+	padding: 25px 195px;
+}
+section.thrid {
+	background: #f5f5f5;
+}
+section.thrid .first_title h2{
+	font-family: "GothaProBold";
+	font-size: 35px;
+	line-height: 75px;
+	letter-spacing: .4px;
+	margin-top: 100px;
+}
+section.thrid .first_title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: .4px;
+	margin-bottom: 35px;
+}
+.top_inform_text {
+	display: table;
+	width: 100%;
+}
+.inform_cell {
+	display: table-cell;
+	width: 33.3333333333333333333333%;
+}
+.inform_cell span{
+	line-height: 65px;
+	letter-spacing: .4px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+}
+.inform_cell p{
+	font-family: "GothaProBold";
+	font-size: 16px;
+}
+.textItem h3{
+	font-family: "GothaProBold";
+	font-size: 19px;
+	line-height: 65px;
+	letter-spacing: .4px;
+}
+.textItem p{
+	line-height: 29px;
+	letter-spacing: .4px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+.textItem ol li{
+	line-height: 29px;
+	letter-spacing: .4px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+.uspeh_proekti {
+	background: #fff;
+	padding-top: 40px;
+}
+.owl-prev {
+	position: absolute;
+	left: -52px;
+	top: 50%;
+}
+.owl-next {
+	position: absolute;
+	right: -52px;
+	top: 50%;
+}
+.owl-theme .owl-nav [class*=owl-] {
+	background: inherit;
+	display: inline-block;
+	cursor: pointer;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+	background: inherit;
+	text-decoration: none;
+}
+.owl_second .owl-theme .owl-dots .owl-dot span {
+	width: 20px;
+	height: 20px;
+	background: inherit;
+	border: 1px solid #2dc545;
+}
+.owl_second .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background: #2dc545;
+}
+.owl-carousel .owl-item img{
+	display: inline-block;
+}
+section.forth{
+	text-align: center;
+}
+section.forth .first_title h2{
+	font-family: "GothaProBold";
+	letter-spacing: .4px;
+	font-size: 35px;
+	margin-top: 75px;
+	font-weight: bold;
+}
+section.forth .first_title p{
+	line-height: 24px;
+	letter-spacing: .4px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+section.forth h3{
+	font-family: "GothaProBold";
+	line-height: 35px;
+	letter-spacing: .4px;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+section.forth p{
+	line-height: 29px;
+	letter-spacing: .4px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+section.fivth{
+	text-align: center;
+	background: #1fa3ff;
+}
+section.fivth h2{
+	line-height: 65px;
+	letter-spacing: .4px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	text-decoration: underline;
+	color: #fff;
+	cursor: pointer;
+}
+i.fa.fa-check-circle {
+	color: #1fa3ff;
+	font-size: 4em;
+	position: relative;
+	top: -33px;
+	margin-bottom: 20px;
+}
+.work_bereza{
+	background: #1fa3ff;
+}
+.work_bereza p, .work_bereza h3{
+	color: #fff;
+	margin-bottom: 15px;
+}
+footer h2{
+	font-family: "GothaProBold";
+	line-height: 75px;
+	letter-spacing: .4px;
+	font-size: 35px;
+}
+ul.ul_footer {
+	float: right;
+	text-align: right;
+}
+ul.ul_footer li {
+	font-family: "GothaProReg";
+	padding-right: 20px;
+	line-height: 55px;
+}
+ul.ul_footer li a {
+	color: #1fa3ff;
+	font-size: 25px;
+	text-decoration: none;
+	letter-spacing: .4px;
+}
+footer ul li a.kofidens{
+	line-height: 65px;
+	letter-spacing: .4px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-decoration: underline;
+	color: #858585;
+}
+footer ul li.li_footer_left{
+
+	letter-spacing: .4px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #858585;
+}
+footer .btn{
+	margin:0;
+}
+.form_btn_footer{
+	text-align: left;
+	margin: 15px 0;
+}
+
+
+.menu {
+	background: #555 url("../images/menu-bg.jpg") repeat left top;
+	left: -285px; /* прячем меню */
+	height: 100%;
+	position: fixed;
+	width: 285px;
+	z-index: 999;
+	top: 0;
+}
+.menu ul {
+	border-top: 1px solid #555;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	border-bottom: 1px solid #555;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 45px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-top: 3px;
+}
+
+.menu li:hover {
+	cursor: pointer;
+	background-color: #555;
+}
+
+.menu a {
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.icon-close {
+	cursor: pointer;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
+
+.icon-menu {
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-top: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.icon-menu img {
+	margin-right: 5px;
+}
+footer#footer {
+	margin-top: 40px;
+}
+input#login, input#tel, input#mail{
+	width: 320px;
+	height: 65px;
+	margin: 10px auto;
+	padding: 5px 20px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	border: 1px solid #cdcdcd;
+	display: block;
+}
+form#form_info {
+	text-align: center;
+}
+form#form_info h2{
+	font-family: "GothaProBold";
+	font-size: 32px;
+	line-height: 75px;
+	letter-spacing: .4px;
+}
+.HeaderInfoGraf .owl-carousel .owl-item img {
+    width: auto;
+}
